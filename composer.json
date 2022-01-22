@@ -1,0 +1,22 @@
+{
+    "name": "jaysondev/formatter",
+    "description": "PHP text formatting",
+    "type": "library",
+    "version": "1.0.3",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "JaysonDev",
+            "email": "telegram.org@mail.ru"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "ext-mbstring": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "JaysonDev\\Formatter\\": "src/"
+        }
+    }
+}
